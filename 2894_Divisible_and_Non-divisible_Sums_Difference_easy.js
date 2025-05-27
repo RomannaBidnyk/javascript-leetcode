@@ -7,8 +7,8 @@
  * num2: The sum of all integers in the range [1, n] (both inclusive) that are divisible by m.
  * Return the integer num1 - num2.
  * 
- * Time Complexity: O(n) — single loop from 1 to n
- * Space Complexity: O(1) — constant space
+ * Time Complexity: O(n) - single loop from 1 to n
+ * Space Complexity: O(1) - constant space
  */
 
 var differenceOfSums = function (n, m) {

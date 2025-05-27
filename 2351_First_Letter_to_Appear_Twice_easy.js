@@ -3,8 +3,8 @@
  * 
  * Given a string s, return the first letter to appear twice.
  *
- * Time Complexity: O(n) — we scan the string once
- * Space Complexity: O(1) — max 26 English lowercase letters (constant space)
+ * Time Complexity: O(n) - we scan the string once
+ * Space Complexity: O(1) - max 26 English lowercase letters (constant space)
  */
 
 var repeatedCharacter = function (s) {

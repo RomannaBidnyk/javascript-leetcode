@@ -8,7 +8,7 @@
 /**
  * Solution 1: Using a plain object to count character frequencies
  * Time Complexity: O(n)
- * Space Complexity: O(1) — max 26 English lowercase letters (constant space)
+ * Space Complexity: O(1) - max 26 English lowercase letters (constant space)
  */
 var firstUniqChar = function (s) {
   const count = {};
