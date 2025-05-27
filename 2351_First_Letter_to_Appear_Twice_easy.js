@@ -1,5 +1,6 @@
 /**
- * Problem 2351 - First Letter to Appear Twice (Easy)
+ * 2351 - First Letter to Appear Twice (Easy)
+ * 
  * Given a string s, return the first letter to appear twice.
  *
  * Time Complexity: O(n) — we scan the string once

@@ -1,5 +1,6 @@
 /**
- * Problem 387 - First Unique Character in a String (Easy)
+ * 387 - First Unique Character in a String (Easy)
+ * 
  * Given a string s, return the index of the first non-repeating character.
  * If it doesn't exist, return -1.
  */
