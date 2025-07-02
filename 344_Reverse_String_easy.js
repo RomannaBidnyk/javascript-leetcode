@@ -28,7 +28,7 @@ var reverseString = function (s) {
 };
 
 /**
- * extra solutions just for practicing approaches 
+ * extra solution just for practicing approache
  * 
  * Solution 2: Recursive Helper Function (Two-Pointer)
  * Time Complexity: O(n)
@@ -47,3 +47,22 @@ function helper(s, l, r) {
 
     helper(s, l + 1, r - 1)
 }
+
+/**
+ * extra solution just for practicing approache
+ * 
+ * Solution 3:  Stack-Based Approach
+ * Time Complexity: O(n)
+ * Space Complexity: O(n) - due to extra stack memory
+ */
+
+var reverseString = function (s) {
+    const stack = [...s]
+    // let stack = []
+    // for (let char of s) {
+    //     stack.push(char)
+    // }
+    for (let i = 0; i < s.length; i++) {
+        s[i] = stack.pop()
+    }
+};
